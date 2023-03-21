@@ -2,12 +2,12 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className='bg-white w-full h-[500px] sm:h-[332px] rounded-xl mt-[48px] border border-gray-200'>
+    <div className='bg-white w-full h-[500px] sm:h-[332px] rounded-xl mt-[48px] border border-gray-200 shadow-lg'>
       <div className='p-2 sm:p-6'>
         <div className='bg-[url("../public/images/image.svg")] h-[192px]  bg-cover bg-no-repeat rounded-xl'></div>
         <div className=''>
           <div className='flex sm:absolute mt-[-52px] ml-[0px] sm:ml-[32px] '>
-            <div className='bg-[url("../public/images/layer.jpeg")] h-[144px] w-[144px] bg-cover rounded-full  border-white border-4'></div>
+            <div className='bg-[url("../public/images/layer.jpeg")] h-[144px] w-[144px] bg-cover rounded-full  border-white border-4 shadow-lg'></div>
           </div>
           <div className='ml-0 sm:ml-[200px] '>
             <div className='flex justify-between pt-3'>
