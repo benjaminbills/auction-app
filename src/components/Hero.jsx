@@ -16,7 +16,7 @@ const Hero = () => {
                   Starts in: 3 days : 2 hours : 24 minutes
                 </p>
                 <div className='flex flex-row pt-[8px]'>
-                  <p className='inline-flex items-center bg-[#FFFAEB] rounded-2xl h-[28px] pr-[12px] pt-[4px] pb-[4px] text-[#B54708] font-medium'>
+                  <p className='inline-flex items-center bg-[#FFFAEB] rounded-2xl min-h-[28px] pr-[12px] pt-[4px] pb-[4px] text-[#B54708] font-medium'>
                     <span className='pr-[7px] pl-[11px]'>
                       <svg
                         width='8'
@@ -35,7 +35,7 @@ const Hero = () => {
                   </p>
                 </div>
               </div>
-              <button className='inline-flex border border-gray-300 rounded-md max-h-[36px] items-center pl-[14px] pr-[14px] pt-[8px] pb-[8px] font-semibold text-sm text-gray-700'>
+              <button className='inline-flex border border-gray-300 rounded-md sm:h-[36px] items-center pl-[14px] pr-[14px] pt-[8px] pb-[8px] font-semibold text-sm text-gray-700'>
                 <span className='mr-[10px]'>
                   <svg
                     width='19'
