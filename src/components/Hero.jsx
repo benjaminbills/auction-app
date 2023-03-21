@@ -35,7 +35,7 @@ const Hero = () => {
                   </p>
                 </div>
               </div>
-              <button className='inline-flex border border-gray-300 rounded-md sm:h-[36px] items-center pl-[14px] pr-[14px] pt-[8px] pb-[8px] font-semibold text-sm text-gray-700'>
+              <button className='inline-flex border border-gray-300 rounded-md sm:h-[36px] items-center pl-[14px] pr-[14px] pt-[8px] pb-[8px] font-semibold text-sm text-gray-700 shadow-xs'>
                 <span className='mr-[10px]'>
                   <svg
                     width='19'

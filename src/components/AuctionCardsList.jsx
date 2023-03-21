@@ -16,7 +16,7 @@ const AuctionCardsList = () => {
     <div className='border-1 border rounded-xl p-2 sm:p-6 mt-6 shadow-lg'>
       <div className='flex justify-between items-center  pb-[24px]'>
         <p className='text-gray-900 text-lg font-semibold'>Featured Items</p>
-        <button className='border border-1 border-gray-300 pt-[8px] pb-[8px] pl-[14px] pr-[14px] font-semibold text-sm text-gray-700 rounded-lg'>
+        <button className='border border-1 border-gray-300 pt-[8px] pb-[8px] pl-[14px] pr-[14px] font-semibold text-sm text-gray-700 rounded-lg shadow-xs'>
           View Auction
         </button>
       </div>
