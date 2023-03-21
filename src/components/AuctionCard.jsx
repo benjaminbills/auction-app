@@ -9,7 +9,7 @@ const AuctionCard = ({ item }) => {
     return initials;
   };
   return (
-    <div className='border min-w-[293.5px] h-[353px] border-1 border-gray-300 rounded-xl p-[12px] flex flex-col'>
+    <div className='border min-w-[100px] md:min-w-[293.5px] h-[353px] border-1 border-gray-300 rounded-xl p-[12px] flex flex-col'>
       <div>
         <img
           className='max-h-[150px] sm:max-h-[132px] w-full'
