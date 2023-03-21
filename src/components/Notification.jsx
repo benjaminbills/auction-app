@@ -19,7 +19,7 @@ const Notification = () => {
         />
       </svg>
       <div className='relative mt-3 ml-[-7px]'>
-        <span className='flex bg-red-500 h-[22px] w-[24px] rounded-full text-center text-white  justify-center items-center font-medium text-sm'>
+        <span className='flex bg-red-500 h-[22px] w-[24px] rounded-full text-center text-white  justify-center items-center font-medium text-xs'>
           2
         </span>
       </div>
