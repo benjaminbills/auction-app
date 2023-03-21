@@ -18,7 +18,7 @@ const Notification = () => {
           strokeLinejoin='round'
         />
       </svg>
-      <div className='absolute mt-3 ml-4'>
+      <div className='relative mt-3 ml-[-7px]'>
         <span className='flex bg-red-500 h-[22px] w-[24px] rounded-full text-center text-white  justify-center items-center font-medium text-sm'>
           2
         </span>
