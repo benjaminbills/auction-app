@@ -2,14 +2,14 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className='bg-white w-full h-[332px] rounded-xl mt-[48px] border border-gray-200'>
+    <div className='bg-white w-full h-[500px] sm:h-[332px] rounded-xl mt-[48px] border border-gray-200'>
       <div className='p-[24px]'>
         <div className='bg-[url("../public/images/image.svg")] h-[192px]  bg-cover bg-no-repeat rounded-xl'></div>
         <div className=''>
-          <div className='absolute mt-[-52px] ml-[32px]'>
+          <div className='flex sm:absolute mt-[-52px] ml-[0px] sm:ml-[32px] '>
             <div className='bg-[url("../public/images/layer.jpeg")] h-[144px] w-[144px] bg-cover rounded-full  border-white border-4'></div>
           </div>
-          <div className='ml-[200px] '>
+          <div className='ml-0 sm:ml-[200px] '>
             <div className='flex justify-between pt-3'>
               <div>
                 <p className='font-semibold text-base '>
@@ -35,7 +35,7 @@ const Hero = () => {
                   </p>
                 </div>
               </div>
-              <button className='inline-flex border-2 border-gray-300 rounded-md h-[36px] items-center pl-[14px] pr-[14px] pt-[8px] pb-[8px] font-semibold text-sm text-gray-700'>
+              <button className='inline-flex border border-gray-300 rounded-md max-h-[36px] items-center pl-[14px] pr-[14px] pt-[8px] pb-[8px] font-semibold text-sm text-gray-700'>
                 <span className='mr-[10px]'>
                   <svg
                     width='19'
